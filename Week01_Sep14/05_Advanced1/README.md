@@ -62,9 +62,8 @@ This challenge was suggested by /u/pantsforbirds. Have a good challenge idea? Co
 
 
 #### Note
-We will be adding an advanced category in future weekly problems.  For now We're
-keeping it to intermediate to see the responses.  We don't want to scare lower
-classmen and we don't want to turn away upper classmen.  We will be open to
+For now we're keeping it somewhat on the lighter end.  We don't want to
+scare lower classmen and we don't want to turn away upper classmen.  We will be open to
 suggestions at the next KU Programming Club meeting on 09/14/16 following the
 ACM meeting.  If you're an upperclassmen and have ideas for puzzles we're open
 to any and all suggestions.  Thank you. - Blaine and Shaina

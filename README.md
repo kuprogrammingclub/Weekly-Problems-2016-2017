@@ -1,7 +1,13 @@
 # KU Programming Club <br> 2016-2017
 
 ### Preface
+If you have any trouble getting started with Github, or have other questions Shaina
+and I (Blaine) will be in the Slack channels.  Either direct message or get ahold
+of us through the #Programming-Club channel.  If there's enough interest we might
+do a quick review of Github during the next meeting for those that need some hands
+on practice.
 
+- KUPC Co-Chairs Blaine, Shaina
 
 ### <u>Meeting Information</u><br>
 #### Date: Wednesday, September 14<br>Time: 7:00pm<br>Place: TBD
