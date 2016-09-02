@@ -1,0 +1,75 @@
+## Advanced 1
+__Source__:
+https://www.reddit.com/r/dailyprogrammer/comments/40rs67/20160113_challenge_249_intermediate_hello_world/
+
+####Description
+
+Use either an Evolutionary or Genetic Algorithm to evolve a solution to the fitness functions provided!
+
+####Input description
+
+The input string should be the target string you want to evolve the initial random solution into.
+The target string (and therefore input) will be
+'Hello, world!'
+However, you want your program to initialize the process by randomly generating a string of the same length as the input. The only thing you want to use the input for is to determine the fitness of your function, so you don't want to just cheat by printing out the input string!
+
+####Output description
+```
+The ideal output of the program will be the evolutions of the population until the program reaches 'Hello, world!' (if your algorithm works correctly). You want your algorithm to be able to turn the random string from the initial generation to the output phrase as quickly as possible!
+Gen: 1  | Fitness: 219 | JAmYv'&L_Cov1
+Gen: 2  | Fitness: 150 | Vlrrd:VnuBc
+Gen: 4  | Fitness: 130 | JPmbj6ljThT
+Gen: 5  | Fitness: 105 | :^mYv'&oj\jb(
+Gen: 6  | Fitness: 100 | Ilrrf,(sluBc
+Gen: 7  | Fitness: 68  | Iilsj6lrsgd
+Gen: 9  | Fitness: 52  | Iildq-(slusc
+Gen: 10 | Fitness: 41  | Iildq-(vnuob
+Gen: 11 | Fitness: 38  | Iilmh'&wmsjb
+Gen: 12 | Fitness: 33  | Iilmh'&wmunb!
+Gen: 13 | Fitness: 27  | Iildq-wmsjd#
+Gen: 14 | Fitness: 25  | Ihnlr,(wnunb!
+Gen: 15 | Fitness: 22  | Iilmj-wnsjb!
+Gen: 16 | Fitness: 21  | Iillq-&wmsjd#
+Gen: 17 | Fitness: 16  | Iillq,wmsjd!
+Gen: 19 | Fitness: 14  | Igllq,wmsjd!
+Gen: 20 | Fitness: 12  | Igllq,wmsjd!
+Gen: 22 | Fitness: 11  | Igllq,wnsld#
+Gen: 23 | Fitness: 10  | Igllq,wmsld!
+Gen: 24 | Fitness: 8   | Igllq,wnsld!
+Gen: 27 | Fitness: 7   | Igllq,!wosld!
+Gen: 30 | Fitness: 6   | Igllo,!wnsld!
+Gen: 32 | Fitness: 5   | Hglln,!wosld!
+Gen: 34 | Fitness: 4   | Igllo,world!
+Gen: 36 | Fitness: 3   | Hgllo,world!
+Gen: 37 | Fitness: 2   | Iello,!world!
+Gen: 40 | Fitness: 1   | Hello,!world!
+Gen: 77 | Fitness: 0   | Hello, world!
+Elapsed time is 0.069605 seconds.
+```
+
+####Notes/Hints
+
+One of the hardest parts of making an evolutionary or genetic algorithm is deciding what a decent fitness function is, or the way we go about evaluating how good each individual (or potential solution) really is.
+One possible fitness function is The Hamming Distance
+
+####Bonus
+
+As a bonus make your algorithm able to accept any input string and still evaluate the function efficiently (the longer the string you input the lower your mutation rate you'll have to use, so consider using scaling mutation rates, but don't cheat and scale the rate of mutation with fitness instead scale it to size of the input string!)
+
+####Credit
+
+This challenge was suggested by /u/pantsforbirds. Have a good challenge idea? Consider submitting it to
+
+
+#### Note
+We will be adding an advanced category in future weekly problems.  For now We're
+keeping it to intermediate to see the responses.  We don't want to scare lower
+classmen and we don't want to turn away upper classmen.  We will be open to
+suggestions at the next KU Programming Club meeting on 09/14/16 following the
+ACM meeting.  If you're an upperclassmen and have ideas for puzzles we're open
+to any and all suggestions.  Thank you. - Blaine and Shaina
+
+#### Furthermore
+If you're looking for inspiration on a language to use, here's a basic tutorial for [Java](http://www.codeproject.com/Articles/2853/Java-Basics-Input-and-Output) and [C++](http://www.cplusplus.com/doc/tutorial/basic_io/).  If you check out
+the README under the Weekly-Problems-2016-2017 there are many more resources
+available to start learning different languages!
