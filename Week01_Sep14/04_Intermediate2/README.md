@@ -1,4 +1,4 @@
-## Intermediate 1 - Name Valuation
+## Intermediate 2 - Name Valuation
 
 Determine the value of a word.  Prompt the user for a word (all
 lowercase unless you want to take it a step further).  The values of the letters
