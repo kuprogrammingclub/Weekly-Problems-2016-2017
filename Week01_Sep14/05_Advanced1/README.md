@@ -2,20 +2,24 @@
 __Source__:
 https://www.reddit.com/r/dailyprogrammer/comments/40rs67/20160113_challenge_249_intermediate_hello_world/
 
-####Description
+### Description
 
 Use either an Evolutionary or Genetic Algorithm to evolve a solution to the fitness functions provided!
 
-####Input description
+### Input description
 
-The input string should be the target string you want to evolve the initial random solution into.
-The target string (and therefore input) will be
-'Hello, world!'
-However, you want your program to initialize the process by randomly generating a string of the same length as the input. The only thing you want to use the input for is to determine the fitness of your function, so you don't want to just cheat by printing out the input string!
+The input string should be the target string you want to evolve the initial random solution into. The target string
+(and therefore input) will be 'Hello, world!'. However, you want your program to initialize the process by randomly
+generating a string of the same length as the input. The only thing you want to use the input for is to determine the
+fitness of your function, so you don't want to just cheat by printing out the input string!
 
-####Output description
+### Output description
+
+The ideal output of the program will be the evolutions of the population until the program reaches 'Hello, world!'
+(if your algorithm works correctly). You want your algorithm to be able to turn the random string from the initial
+generation to the output phrase as quickly as possible!
+
 ```
-The ideal output of the program will be the evolutions of the population until the program reaches 'Hello, world!' (if your algorithm works correctly). You want your algorithm to be able to turn the random string from the initial generation to the output phrase as quickly as possible!
 Gen: 1  | Fitness: 219 | JAmYv'&L_Cov1
 Gen: 2  | Fitness: 150 | Vlrrd:VnuBc
 Gen: 4  | Fitness: 130 | JPmbj6ljThT
@@ -47,28 +51,29 @@ Gen: 77 | Fitness: 0   | Hello, world!
 Elapsed time is 0.069605 seconds.
 ```
 
-####Notes/Hints
+### Hints
 
-One of the hardest parts of making an evolutionary or genetic algorithm is deciding what a decent fitness function is, or the way we go about evaluating how good each individual (or potential solution) really is.
-One possible fitness function is The Hamming Distance
+One of the hardest parts of making an evolutionary or genetic algorithm is deciding what a decent fitness function is,
+or the way we go about evaluating how good each individual (or potential solution) really is.<br>
+One possible fitness function is the [Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance).
 
-####Bonus
+### Bonus
 
-As a bonus make your algorithm able to accept any input string and still evaluate the function efficiently (the longer the string you input the lower your mutation rate you'll have to use, so consider using scaling mutation rates, but don't cheat and scale the rate of mutation with fitness instead scale it to size of the input string!)
+As a bonus make your algorithm able to accept any input string and still evaluate the function efficiently (the longer
+the string you input the lower your mutation rate you'll have to use, so consider using scaling mutation rates, but
+don't cheat and scale the rate of mutation with fitness instead scale it to size of the input string!)
 
-####Credit
+### Note
 
-This challenge was suggested by /u/pantsforbirds. Have a good challenge idea? Consider submitting it to
+For now we're keeping it somewhat on the lighter end.  We don't want to scare underclassmen and we don't want to turn
+away upperclassmen.  We will be open to suggestions at the next KU Programming Club meeting on 09/14/16 following the
+ACM meeting.  If you're an upperclassmen and have ideas for puzzles we're open to any and all suggestions.<br>
+Thank you. - Blaine and Shaina<br>
 
 
-#### Note
-For now we're keeping it somewhat on the lighter end.  We don't want to
-scare lower classmen and we don't want to turn away upper classmen.  We will be open to
-suggestions at the next KU Programming Club meeting on 09/14/16 following the
-ACM meeting.  If you're an upperclassmen and have ideas for puzzles we're open
-to any and all suggestions.  Thank you. - Blaine and Shaina
+### Furthermore
 
-#### Furthermore
-If you're looking for inspiration on a language to use, here's a basic tutorial for [Java](http://www.codeproject.com/Articles/2853/Java-Basics-Input-and-Output) and [C++](http://www.cplusplus.com/doc/tutorial/basic_io/).  If you check out
-the README under the Weekly-Problems-2016-2017 there are many more resources
-available to start learning different languages!
+If you're looking for inspiration on a language to use, here's a basic tutorial for [Java](http://www.codeproject.com/Articles/2853/Java-Basics-Input-and-Output) and
+[C++](http://www.cplusplus.com/doc/tutorial/basic_io/).<br>
+If you check out the README under the Weekly-Problems-2016-2017 there are many more resources available to start
+learning different languages!
