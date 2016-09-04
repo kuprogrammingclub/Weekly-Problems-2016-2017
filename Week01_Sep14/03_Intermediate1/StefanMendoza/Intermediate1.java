@@ -9,13 +9,13 @@
 import java.util.Scanner;
 
 public class Intermediate1 {
-  public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-    System.out.println("What's your favorite color?");
-    System.out.print("> ");
-    String favoriteColor = input.nextLine();
+        System.out.println("What's your favorite color?");
+        System.out.print("> ");
+        String favoriteColor = input.nextLine();
 
-    System.out.println("Your's is " + favoriteColor + "? That's a great color! Mine's red.");
-  }
+        System.out.println("Your's is " + favoriteColor + "? That's a great color! Mine's red.");
+    }
 }
