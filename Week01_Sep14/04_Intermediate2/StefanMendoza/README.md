@@ -19,6 +19,11 @@ So learn it early! :)
 
 __NOTE:__ This is assuming you're using a Mac.
 
+
+#### Installing Python3.x
+
+First, check to make sure you have Python3 installed:
+
 ```
 $ python3 --version
 Python 3.5.2
@@ -29,6 +34,14 @@ If it's not installed and [Homebrew](http://brew.sh/) isn't installed:
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+Install Python3 using Homebrew:
+
+```
+$ brew install Python3
+```
+
+#### Running the Code
 
 I used the [Nose](http://nose.readthedocs.io/en/latest/) unit testing framework, but Python has a
 [built-in unit testing module](https://docs.python.org/3/library/unittest.html) that you could also use.<br>
