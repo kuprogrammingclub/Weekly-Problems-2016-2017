@@ -1,10 +1,8 @@
-#!/usr/bin/python
-
 '''
-File: Beginner3.py
+File: Intermediate1.py
 Author: Stefan Mendoza
 Date: 2 September 2016
-Description: Week1 / Beginner3 for KU Programming Club (2016-2017)
+Description: Week 1 / Intermediate 1 for KU Programming Club (2016-2017)
 '''
 
 def isPalindrome(name):

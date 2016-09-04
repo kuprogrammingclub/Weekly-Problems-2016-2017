@@ -1,10 +1,8 @@
-#!/usr/bin/python
-
 '''
 File: Beginner2.py
 Author: Stefan Mendoza
 Date: 2 September 2016
-Description: Week-1/Beginner-2 for KU Programming Club (2016-2017)
+Description: Week 1 / Beginner 2 for KU Programming Club (2016-2017)
 '''
 
 def calculate(age):

@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 '''
 File: Beginner1.py
 Author: Stefan Mendoza
