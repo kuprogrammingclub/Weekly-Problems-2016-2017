@@ -1,4 +1,4 @@
-## Beginner 2 - Summer 2
+## Beginner 2 - Sums/Factorials2
 __source__:
 https://adriann.github.io/programming_problems.html
 
