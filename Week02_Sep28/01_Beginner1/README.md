@@ -6,10 +6,24 @@ https://adriann.github.io/programming_problems.html
 Write a program that asks the user for a number n and gives him the possibility
 to choose between computing the sum and computing the product of 1,…,n.
 
+Example 1:
+
 ```
+Would you like to compute the sum or the product? (+ for sum, x for product)
+> +
 What number would you like to sum to?
 > 9
-The sum from 0 to 9 is 45.
+The sum from 1 to 9 is 45.
+```
+
+Example 2:
+
+```
+Would you like to compute the sum or the product? (+ for sum, x for product)
+> x
+What number would you like to compute the product to?
+> 9
+The product from 1 to 9 is 362880.
 ```
 
 ### Furthermore
