@@ -43,7 +43,7 @@ constraint
     sum([x[i,j] | j in 1..n]) = n / 2
     /\
     forall(j in 1..n-2) (
-      x[i,j]+x[i,j+1]+x[i,j+2] <= 2
+      (x[i,j]+x[i,j+1]+x[i,j+2]) in 1..2
     )
   )
 
@@ -52,7 +52,7 @@ constraint
     sum([x[i,j] | i in 1..n]) = n / 2
     /\
     forall(i in 1..n-2) (
-      x[i,j]+x[i+1,j]+x[i+2,j] <= 2
+      (x[i,j]+x[i+1,j]+x[i+2,j]) in 1..2
     )
   )
 ;
