@@ -1,4 +1,4 @@
-## Intermediate 2 - Linked List Addition
+## Intermediate 2 - Mathagrams
 __*Source*__:
 https://www.reddit.com/r/dailyprogrammer/comments/589txl/20161019_challenge_288_intermediate_stars_and/
 

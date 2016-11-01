@@ -1,4 +1,4 @@
-## Beginner 2
+## Beginner 2 - Binary to Decimal
 __source__:
 https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/
 

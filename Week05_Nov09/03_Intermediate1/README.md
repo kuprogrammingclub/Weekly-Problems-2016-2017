@@ -1,4 +1,4 @@
-## Intermediate 1
+## Intermediate 1 - Diamond Words
 __source__:
 https://tausiq.wordpress.com/2009/09/27/diamond-word/
 

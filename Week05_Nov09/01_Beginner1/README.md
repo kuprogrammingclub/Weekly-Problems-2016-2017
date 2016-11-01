@@ -1,4 +1,4 @@
-## Beginner 1
+## Beginner 1 - Rock, Paper, Scissors
 __source__:
 https://tausiq.wordpress.com/2009/09/19/rock-paper-and-scissors-tournament/
 
