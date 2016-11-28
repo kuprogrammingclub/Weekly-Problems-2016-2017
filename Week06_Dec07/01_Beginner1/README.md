@@ -2,8 +2,7 @@
 __source__:
 https://www.hackerrank.com/challenges/rectangle-area
 #### Author
-__source__:
-https://www.hackerrank.com/Skr379
+[Skr379](https://www.hackerrank.com/Skr379)
 
 ### Description
 This is meant to force you to use your knowledge of classes and hopefully

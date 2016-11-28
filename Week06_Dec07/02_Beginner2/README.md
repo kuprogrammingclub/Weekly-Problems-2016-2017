@@ -2,8 +2,7 @@
 __source__:
 https://www.hackerrank.com/challenges/python-arithmetic-operators
 #### Author
-__source__:
-https://www.hackerrank.com/shashank21j
+[shashank21j](https://www.hackerrank.com/shashank21j)
 
 ### Note
 This will hopefully be easy enough, to get you started with python.  You might

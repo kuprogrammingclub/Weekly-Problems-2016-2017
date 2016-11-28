@@ -12,7 +12,7 @@ Princess Peach is trapped in one of the four corners of a square grid. You are i
 
 The first line contains an odd integer N (3 <= N < 100) denoting the size of the grid. This is followed by an NxN grid. Each cell is denoted by '-' (ascii value: 45). The bot position is denoted by 'm' and the princess position is denoted by 'p'.
 
-Grid is indexed using Matrix Convention. __source__:https://www.hackerrank.com/scoring/board-convention
+Grid is indexed using [Matrix Convention](https://www.hackerrank.com/scoring/board-convention)
 
 #### Output format
 
