@@ -1,47 +1,54 @@
-## Beginner 2 - Binary to Decimal
+## Beginner 1 - Arithmetic Operators with Python
 __source__:
-https://tausiq.wordpress.com/2009/07/27/uab-2005-problem-3-binary-to-decimal-converter/
+https://www.hackerrank.com/challenges/python-arithmetic-operators
+#### Author
+__source__:
+https://www.hackerrank.com/shashank21j
+
+### Note
+This will hopefully be easy enough, to get you started with python.  You might
+have to do a little research on how to get started with python.  Google and
+StackOverflow is your friend!
+
+Python is built into most Linux distributions and all the EECS computers.
+It is a little more work to get it working on Windows, but not by much.
+
+Getting started:
+https://www.python.org/about/gettingstarted/
 
 ### Description
-A binary number is a sequence of bits (binary digits – 0’s and 1’s) of the form
-BnBn-1……B1 B0, where each Bi is a bit.
+Read two integers from STDIN and print three lines where:
 
-The decimal equivalent is calculated by Bn * 2n+ Bn-1 * 2n-1 + … + B1 * 2 + B0.
+The first line contains the sum of the two numbers.
+The second line contains the difference of the two numbers (first - second).
+The third line contains the product of the two numbers.
 
-Write a program to input a binary number and output the decimal equivalent.
+### Input Format
+The first line contains the first integer, a. The second line contains the second integer, b.
 
-The sample input will not have more than 8 individual bits (i.e., the largest value to be entered is 11111111).
+### Constraints
+1 <= a <= 10^10
+1 <= b <= 10^10
 
-### Example
+### Output Format
+Print the three lines as explained above.
+
+### Sample Input
 ```
-Enter binary number: 101
-In decimal: 5
-
-Enter binary number: 11111
-In decimal: 31
+3
+2
 ```
 
-### Critical Test Cases
+### Sample Output
 ```
-Enter binary number: 11111111
-In decimal: 255
-Enter binary number: 10101010
-In decimal: 170
-Enter binary number: 0
-In decimal: 0
-Enter binary number: 1
-In decimal: 1
-Enter binary number: 10
-In decimal: 2
-Enter binary number: 11
-In decimal: 3
-Enter binary number: 100
-In decimal: 4
-Enter binary number: 10000000
-In decimal: 128
+5
+1
+6
 ```
 
 ### Furthermore
-If you're looking for inspiration on a language to use, here's a basic tutorial for [Java](http://www.codeproject.com/Articles/2853/Java-Basics-Input-and-Output) and [C++](http://www.cplusplus.com/doc/tutorial/basic_io/).  If you check out
+If you're looking for inspiration on a language to use, here's a basic tutorial
+for [Java](http://www.codeproject.com/Articles/2853/Java-Basics-Input-and-Output)
+and [C++](http://www.cplusplus.com/doc/tutorial/basic_io/).  If you check out
 the README under the Weekly-Problems-2016-2017 there are many more resources
 available to start learning different languages!

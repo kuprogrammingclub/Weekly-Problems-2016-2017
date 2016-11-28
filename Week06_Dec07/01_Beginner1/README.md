@@ -1,50 +1,50 @@
-## Beginner 1 - Arithmetic Operators with Python
+## Beginner 1 - Rectangle Area by Skr379
 __source__:
-https://www.hackerrank.com/challenges/python-arithmetic-operators
+https://www.hackerrank.com/challenges/rectangle-area
 #### Author
 __source__:
-https://www.hackerrank.com/shashank21j
-
-### Note
-This will hopefully be easy enough, to get you started with python.  You might
-have to do a little research on how to get started with python.  Google and
-StackOverflow is your friend!
-
-Python is built into most Linux distributions and all the EECS computers.
-It is a little more work to get it working on Windows, but not by much.
-
-Getting started:
-https://www.python.org/about/gettingstarted/
+https://www.hackerrank.com/Skr379
 
 ### Description
-Read two integers from STDIN and print three lines where:
+This is meant to force you to use your knowledge of classes and hopefully
+introduce you to inheritance. (NOTE: If you don't understand inheritance feel free to
+add the Rectangle-Area methods to the Rectangle class). Without further ado:
 
-The first line contains the sum of the two numbers.
-The second line contains the difference of the two numbers (first - second).
-The third line contains the product of the two numbers.
+Create two classes:
 
-### Input Format
-The first line contains the first integer, a. The second line contains the second integer, b.
+#### Rectangle
+The Rectangle class should have two data fields-width and height of int types. The class should have display() method, to print the width and height of the rectangle separated by space.
+
+#### RectangleArea
+The RectangleArea class is the derived from Rectangle class, i.e., it is the sub-class of Rectangle class. The class should have read_input() method, to read the values of width and height of the rectangle. The RectangleArea class should also overload the display() method to print the area (width * height) of the rectangle.
+
+###Input Format
+
+The first and only line of input contains two space separated integers denoting the width and height of the rectangle.
 
 ### Constraints
-1 <= a <= 10^10
-1 <= b <= 10^10
+```
+1 <= width,height <= 100
+```
 
 ### Output Format
-Print the three lines as explained above.
+
+The output should consist of exactly two lines:
+In the first line, print the width and height of the rectangle separated by space.
+In the second line, print the area of the rectangle.
 
 ### Sample Input
 ```
-3
-2
+10 5
 ```
 
 ### Sample Output
 ```
-5
-1
-6
+10 5
+50
 ```
+
+
 
 ### Furthermore
 If you're looking for inspiration on a language to use, here's a basic tutorial
