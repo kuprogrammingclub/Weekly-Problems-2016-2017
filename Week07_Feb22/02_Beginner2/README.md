@@ -49,9 +49,6 @@ next line contains N integers.
 ### Constraints
 1 <= N <= 10^5
 1 <= V_i <= 10^9, where V_i is the ith integer in the vector.
-![](https://latex.codecogs.com/gif.latex?1\leq&space;N\leqslant&space;10^5" title="1\leq N\leqslant 10^5)
-
-![](https://latex.codecogs.com/gif.latex?1\leq&space;V_i&space;\leqslant&space;10^9,&space;\textup{where}&space;\&space;V_i&space;\&space;\textup{is&space;\&space;the}&space;\&space;i_t_h&space;\&space;\textup{integer&space;in&space;the&space;vector.}" title="1\leq V_i \leqslant 10^9, \textup{where} \ V_i \ \textup{is \ the} \ i_t_h \ \textup{integer in the vector.})
 
 ### Output Format
 
