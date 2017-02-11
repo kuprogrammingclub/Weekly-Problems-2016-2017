@@ -47,8 +47,8 @@ The first line of the input contains N where N is the number of integers. The
 next line contains N integers.
 
 ### Constraints
-1 <= N <= 10^5
-1 <= V_i <= 10^9, where V_i is the ith integer in the vector.
+* 1 <= N <= 10^5
+* 1 <= V_i <= 10^9, where V_i is the ith integer in the vector.
 
 ### Output Format
 
