@@ -13,11 +13,14 @@ also be nested.
 
 The opening tags follow the format:
 
+```
 <tag-name attribute1-name = "value1" attribute2-name = "value2" ... >
+```
 
 The closing tags follow the format:
-
-< /tag-name >
+```
+</tag-name>
+```
 
 For example:
 
