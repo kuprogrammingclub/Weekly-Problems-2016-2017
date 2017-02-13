@@ -56,8 +56,8 @@ Frostbite: 7
 
 ### Explanation
 
-Fireball and Frostbite are common spell types.
-AquaVitae is not, and when you compare it with AruTaVae in your spell journal, you get a sequence: AuaVae
+* Fireball and Frostbite are common spell types.
+* AquaVitae is not, and when you compare it with AruTaVae in your spell journal, you get a sequence: AuaVae
 
 ### Code to be used/edited
 

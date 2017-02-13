@@ -52,8 +52,9 @@ The following *N* lines consist of either an opening tag with zero or more attri
 in the source program.
 
 #### Constraints
-1 <= *N* <= 20
-1 <= *Q* <= 20
+
+* 1 <= *N* <= 20
+* 1 <= *Q* <= 20
 
 Each line in the source program contains, at max, *200* characters.
 Every reference to the attributes in the *Q* queries contains at max *200* characters. All tag names are unique.

@@ -32,8 +32,8 @@ Each of the *T* subsequent lines describes a test case as 2 space-separated inte
 
 #### Constraints
 
-1 <= T <= 10^3
-0 <= A,B <= 2^60
+* 1 <= T <= 10^3
+* 0 <= A,B <= 2^60
 
 #### Output format
 
@@ -58,8 +58,8 @@ Not enough memory
 
 #### Explanation
 
-See the implementation of the compute function.
-*2* is the server load.
+* See the implementation of the compute function.
+* *2* is the server load.
 
 #### Code to be used/edited
 
